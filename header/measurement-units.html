@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            /* margin:0; */
+            /* padding: 0; */
+            box-sizing: border-box;
+        }
+
+        .parent {
+            width: 400px;
+            height: 200px;
+            background-color: teal;
+        }
+
+
+
+        .child {
+            border: 1px solid;
+            padding: 16px;
+            /* width: 250px; */
+            width: 50%;
+            /* height: 100px; */
+            height: 50%;
+            background-color: cyan;
+        }
+
+         .parent .red {
+            background-color: orange;
+            background-color: gold;
+            background-color: red;
+        }
+
+        .cards{
+            margin-top: 32px;
+        }
+        .card{
+            border: 1px solid;
+            padding: 1rem;
+            display: inline-block;
+
+        }
+        .cards .red{
+            border: 1px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>measurement units</h1>
+    <ul>
+        <li>px</li>
+        <li>% (doesnot work propely on padding and margin , use it on height, width) </li>
+    </ul>
+
+    parent
+    <div class="parent">
+        <div class="child">
+            child
+        </div>
+        <div class="child red">
+            child
+        </div>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            Ram
+        </div>
+        <div class="card red">
+            Hari
+        </div>
+        <div class="card">
+            Shyam
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

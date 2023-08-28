@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height:100px;
+            border: 1px solid;
+        }
+        .box.red{
+            background-color: red;
+        }
+    div .red p{
+            color:red;
+        }
+
+        /*combination of selectors*/
+        p.red{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!---.box*5{box-$}-->
+    <div class="boxes">
+    <div class="box red">box-1</div>
+    <div class="box">box-2</div>
+    <div class="box">box-3</div>
+    <div class="box">box-4</div>
+    <div class="box">box-5</div>
+    <div class="red">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni nesciunt labore provident soluta unde, totam aut ex suscipit? Tempora, debitis pariatur iusto rem consectetur amet quos repudiandae dignissimos qui?</p>
+    </div>
+    <p class="red">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores atque quasi velit voluptates unde ut tempora. Illum assumenda ullam ipsum! Dignissimos illo nostrum labore quia nulla, excepturi quisquam est assumenda.</p>
+</div>
+</body>
+</html>
